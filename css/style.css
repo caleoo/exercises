@@ -29,3 +29,17 @@ div#d4:hover > p {
     display: block;
     background-color: lightgray;
 }
+
+a {
+    color: rgb(14, 201, 14);
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(218, 186, 7);
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgb(0, 140, 255);
+}
