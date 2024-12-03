@@ -1,2 +1,31 @@
-@charset "UTF8";
+@charset "UTF-8";
 
+* {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+div.d {
+    background-color: lightgray;
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+div.d:hover {
+    background-color: yellow;
+}
+
+div#d4:hover {
+    color: red;
+}
+
+div#d4 > p {
+    display: none;
+}
+
+div#d4:hover > p {
+    display: block;
+    background-color: lightgray;
+}
