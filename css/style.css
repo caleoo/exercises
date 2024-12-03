@@ -43,3 +43,7 @@ a:hover {
     text-decoration: underline;
     color: rgb(0, 140, 255);
 }
+
+img:hover {
+    transform: scale(1.3);
+}
