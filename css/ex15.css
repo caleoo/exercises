@@ -4,7 +4,7 @@
     font-family: Arial, Helvetica, sans-serif
 }
 
-div.d {
+.d {
     background-color: lightgray;
     text-align: center;
     height: 100px;
@@ -13,19 +13,19 @@ div.d {
     display: inline-block;
 }
 
-div.d:hover {
+.d:hover {
     background-color: yellow;
 }
 
-div#d4:hover {
+#d4:hover {
     color: red;
 }
 
-div#d4 > p {
+#d4 > p {
     display: none;
 }
 
-div#d4:hover > p {
+#d4:hover > p {
     display: block;
     background-color: lightgray;
 }
@@ -42,6 +42,10 @@ a:visited {
 a:hover {
     text-decoration: underline;
     color: rgb(0, 140, 255);
+}
+
+a::after {
+    content: '[link]';
 }
 
 img:hover {
