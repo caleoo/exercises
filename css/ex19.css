@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+body {
+    height: 95vh;
+    background-color: black;
+    background-image: url(../html/wallpaper-texture/green-snow.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+
+    background-size: cover;
+    background: black url('../html/wallpaper-texture/green-snow.jpg') center center no-repeat fixed;
+}
+
+main {
+    max-width: 500px;
+    border-radius: 20px;
+    background-color: white;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px 10px 0px 10px;
+    margin: 0px;
+}
+
+p {
+    text-indent: 15px;
+    text-align: justify;
+    padding: 15px 20px;
+}
+
+.quad {
+    display: none;
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: lightgray;
+}
+
+#q1 {
+    background-color: lightblue;
+}
+
+#q2 {
+    background-image: linear-gradient(to bottom, rgb(102, 255, 0), rgb(0, 255, 157));
+}
+
+#q3 {
+    background-image: url('../html/wallpaper-texture/black-sand.jpg');
+}
+
+.quad:hover {
+    transform: scale(1.2);
+}
